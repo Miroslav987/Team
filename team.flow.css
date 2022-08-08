@@ -168,6 +168,7 @@ i {
 }
 
 .hfour {
+  text-align: center;
   margin-top: 40px;
   letter-spacing: 0.5px;
   color: #4e5a65;
@@ -204,7 +205,6 @@ i {
 
 .groupall img {
   margin-top: 50px;
-  width: 100%;
 }
 
 .colona {
@@ -542,5 +542,32 @@ footer {
   }
   .hfour {
     font-size: 10px;
+  }
+  .logotip {
+    margin: 30px 275px 40px 0px;
+  }
+  .logotip img {
+    margin: 0;
+  }
+  .section-2 {
+    position: relative;
+  }
+  .groupall {
+    height: 690px;
+  }
+  .groupall img {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+  .colona {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+  }
+  .hd2,
+  .hd3 {
+    width: 285px;
   }
 }
