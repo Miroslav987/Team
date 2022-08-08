@@ -553,6 +553,7 @@ footer {
     font-size: 25px;
   }
   .paragraf {
+    width: 300px;
     font-size: 10px;
   }
   .hfour {
@@ -596,6 +597,60 @@ footer {
     font-size: 12px;
   }
   .block {
-    flex-direction: column-reverse;
+    height: 400px;
+    display: flex;
+  }
+  .block h2 {
+    padding: 20px;
+  }
+  .block p {
+    padding: 20px;
+  }
+  .block button {
+    margin: 20px;
+  }
+  .block img {
+    display: none;
+  }
+  .blic {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 120px;
+  }
+  .blic h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    line-height: 11px;
+  }
+  .blic img {
+    width: 90px;
+    margin: 4px;
+  }
+  .name3 {
+    font-size: 30px;
+  }
+  .name4 {
+    font-size: 12px;
+  }
+  .iconall {
+    margin-left: 10px;
+    flex-direction: column;
+  }
+  .stolb li {
+    font-size: 10px;
+  }
+  footer img {
+    width: 100px;
+  }
+  .limg img {
+    width: 10px;
+  }
+  .lg {
+    display: none;
+  }
+  .lg p {
+    font-size: 8px;
   }
 }
