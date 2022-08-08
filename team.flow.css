@@ -529,7 +529,7 @@ footer {
     font-size: 25px;
   }
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
   .container {
     display: flex;
     justify-content: center;
