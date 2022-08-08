@@ -14,7 +14,6 @@ header {
 
 .container {
   max-width: 1500px;
-  min-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -431,7 +430,6 @@ footer {
 
 .container-2 {
   max-width: 1500px;
-  min-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -544,30 +542,41 @@ footer {
     font-size: 10px;
   }
   .logotip {
-    margin: 30px 275px 40px 0px;
+    width: 380px;
   }
   .logotip img {
     margin: 0;
   }
-  .section-2 {
-    position: relative;
-  }
+  /* .section-2 {
+      position: relative;
+    } */
   .groupall {
     height: 690px;
   }
   .groupall img {
     width: 200px;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 10px;
+    left: 10px; */
   }
   .colona {
-    position: absolute;
+    /* position: absolute;
     top: 150px;
-    left: 10px;
+    left: 10px; */
   }
   .hd2,
   .hd3 {
     width: 285px;
+  }
+  .hd2 h3,
+  .hd3 h3 {
+    font-size: 15px;
+  }
+  .hd2 p,
+  .hd3 p {
+    font-size: 12px;
+  }
+  .block {
+    flex-direction: column-reverse;
   }
 }
