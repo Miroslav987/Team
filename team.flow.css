@@ -528,6 +528,12 @@ footer {
   }
 }
 @media all and (max-width: 400px) {
+  header {
+    margin-top: 10px;
+  }
+  .section {
+    margin-top: 10px;
+  }
   .container {
     display: flex;
     justify-content: center;
@@ -542,6 +548,7 @@ footer {
     font-size: 10px;
   }
   .logotip {
+    text-align: center;
     width: 380px;
   }
   .logotip img {
