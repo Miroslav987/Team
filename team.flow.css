@@ -133,7 +133,7 @@ i {
 }
 
 .class {
-  width: 29%;
+  width: 70%;
   justify-content: center;
   display: flex;
 }
@@ -204,8 +204,7 @@ i {
 
 .groupall img {
   margin-top: 50px;
-  width: 657px;
-  height: 518px;
+  width: 100%;
 }
 
 .colona {
@@ -537,5 +536,11 @@ footer {
   }
   .manage {
     font-size: 25px;
+  }
+  .paragraf {
+    font-size: 10px;
+  }
+  .hfour {
+    font-size: 10px;
   }
 }
