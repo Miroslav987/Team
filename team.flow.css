@@ -529,10 +529,21 @@ footer {
 }
 @media all and (max-width: 400px) {
   header {
-    margin-top: 10px;
+    margin-top: 0;
   }
   .section {
     margin-top: 10px;
+    width: 200px;
+    height: 20px;
+  }
+  .one {
+    height: 30px;
+  }
+  .two {
+    height: 30px;
+  }
+  .section p {
+    font-size: 12px;
   }
   .container {
     display: flex;
@@ -549,7 +560,7 @@ footer {
   }
   .logotip {
     text-align: center;
-    width: 380px;
+    width: 300px;
   }
   .logotip img {
     margin: 0;
@@ -558,10 +569,11 @@ footer {
       position: relative;
     } */
   .groupall {
-    height: 690px;
+    height: 840px;
   }
   .groupall img {
-    width: 200px;
+    width: 280px;
+
     /* position: absolute;
     top: 0;
     left: 10px; */
