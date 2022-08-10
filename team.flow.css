@@ -561,7 +561,6 @@ footer {
   }
   .logotip {
     text-align: center;
-    width: 300px;
   }
   .logotip img {
     margin: 0;
@@ -586,43 +585,52 @@ footer {
   }
   .hd2 h3,
   .hd3 h3 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .hd2 p,
   .hd3 p {
     font-size: 12px;
   }
+  .group h4 {
+    font-size: 14px;
+  }
+  .group p {
+    font-size: 12px;
+  }
   .block {
-    height: 400px;
+    height: 518px;
     display: flex;
   }
   .block h2 {
+    font-size: 30px;
     padding: 20px;
   }
   .block p {
+    font-size: 15px;
     padding: 20px;
   }
   .block button {
     margin: 20px;
   }
-  .block img {
-    display: none;
-  }
+
   .blic {
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 120px;
+    width: 350px;
+    height: 130px;
   }
   .blic h2 {
     text-align: center;
     margin: auto;
-    font-size: 12px;
-    line-height: 11px;
+    font-size: 18px;
+    line-height: 19px;
   }
   .blic img {
-    width: 90px;
-    margin: 4px;
+    width: 100px;
+    margin: 5px;
+  }
+  .name2 {
+    font-size: 28px;
   }
   .name3 {
     font-size: 30px;
@@ -631,8 +639,11 @@ footer {
     font-size: 12px;
   }
   .iconall {
-    margin-left: 10px;
+    margin-left: 50px;
     flex-direction: column;
+  }
+  .stolb {
+    height: 285px;
   }
   .stolb li {
     font-size: 10px;
@@ -640,13 +651,23 @@ footer {
   footer img {
     width: 100px;
   }
+  .limg {
+    margin: 0;
+  }
   .limg img {
-    width: 10px;
+    float: right;
+    margin: 4px;
+    width: 13px;
+    padding: 0;
   }
   .lg {
-    display: none;
+    margin: 0;
+    display: block;
   }
   .lg p {
     font-size: 8px;
+  }
+  footer {
+    height: 340px;
   }
 }
